@@ -1,0 +1,108 @@
+HTML5语言标记
+一、头部标记
+1.hoctype
+2.html
+3.head
+4.title
+5.meta
+6.base
+7.link
+8.style
+9.script
+10.noscript
+
+二、分区标记
+1.body
+2.article
+3.nav
+4.aside
+5.section
+6.header
+7.footer
+8.h1~h6
+9.main  (只能用一次)
+
+三、分组标记
+1.p
+2.hr(水平线)
+3.pre(预格式标记 保持原本格式)
+4.blockquote
+5.ul/ol>li
+6.dl/dt/dd
+7.figure
+8.figcaption
+9.dav
+
+四、表格
+1.table
+2.caption
+3.thead
+4.tfoot
+5.tbody
+6.tr
+7.th
+8.td
+9.col
+10.colgroup
+
+五、文本标记(text level)
+Text level 1
+1.a
+2.em 侧重点的强调
+3.strong 内容重要性的强调
+4.i 另一种叙述方式
+5.b 关键文字
+6.u 标注
+7.s 有无文本
+8.small 旁注
+9.abbr 缩写词
+10.q 短引用
+11.cite 作品标题的引用
+12.dfn 定义实例
+13.sub,sup上下标文本
+Text level2
+1.time 时间格式标记
+2.code 计算机代码
+3.kdd 用户输入（按键）
+4.samp 计算机基础的输出
+5.var 定义变量
+6.mark 高亮文本
+7.bdi 定义文本方向
+8.bdo 定义文本显示方向
+9.ruby，rt，rp 注音文本
+10.span 无语义的文本标记
+11.br 换行
+12.wbr 有效换行
+
+六、表单标记
+1.from
+2.fieldset
+3.legend
+4.label
+5.input
+6.button
+7.select
+8.option
+9.optigroup
+10.datalist
+11.textarea
+
+h5新增:
+meter
+keygen
+output
+progress
+
+七、嵌入式标记
+1.img
+2.iframe
+3.embed
+4.object
+5.param
+6.video
+7.audio
+8.source
+9.track
+10.canvas
+11.map
+12.area
