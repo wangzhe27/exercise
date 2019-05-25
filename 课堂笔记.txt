@@ -1,0 +1,111 @@
+netboans 学php vsc很好 
+浏览器兼容
+
+第一部分 web开发工具选取
+一. node.js
+1.什么是node.js(logo)
+命令 node -v
+	node + 回车 进入环境
+	ctrl + d 退出
+	
+Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境。 
+
+2.有什么功用?
+功能:它让javascript可以开发后端程序，实现几乎其他后端语言实现的所有功能
+作用(优势):1)Nodejs语法完全是js语法，只要你懂js基础就可以学会Nodejs后端开发
+		  2)NodeJs超强的高并发能力
+		  3)实现高性能服务器
+		  4)开发周期短、开发成本低、学习成本低
+3.能干什么?
+
+4.怎么用?
+二. git
+命令: git --version 测试版本
+1.什么是git(logo)(选择开发环境)
+Git是一个免费的开源 分布式版本控制系统，旨在快速高效地处理从小型到大型项目的所有事务
+
+2.有什么功用?
+功能:Git 易于学习， 占地面积小，具有闪电般快速的性能。
+	*具有廉价本地分支，便捷的临时区域和 多个工作流程等功能。
+作用:
+三. bower
+1.什么是bower?
+安装: npm install -g bower 全局安装
+	  npm install --save-dev bower 安装到本地
+测试: bower --version
+			-v
+使用:(模仿npm  可以使用 npm 的命令)
+网络包管理器
+2.有什么功用
+功能:*Bower可以管理包含HTML，CSS，JavaScript，字体甚至图像文件的组件。Bower不会连接或缩小代码或执行任何其他操作 - 它只是安装所需的软件包及其依赖项的正确版本。
+Bower为前端软件包管理问题提供了一个通用的，不受影响的解决方案，同时通过一个可以被更具见解性的构建堆栈使用的API公开软件包依赖模型。
+没有系统范围的依赖关系，不同应用程序之间不共享依赖关系，并且依赖关系树是平坦的。
+Bower运行Git，并且与包无关。打包的组件可以由任何类型的资产组成，并使用任何类型的传输（例如，AMD，CommonJS等）。
+四. gulp
+安装: npm(bower) install gulp -g
+测试: gulp --version
+说明: gulp -CLI
+CLI: Command Line Interface(命令行接口)
+1.什么是gulp?
+是一个前端构建工具，与gruntjs相比，gulpjs无需写一大堆繁杂的配置参数，API也非常简单
+2.有什么功用?
+1)通过代码优于配置的策略，Gulp 让简单的任务简单，复杂的任务可管理。
+2)利用 Node.js 流的威力，你可以快速构建项目并减少频繁的 IO 操作。
+3)Gulp 严格的插件指南确保插件如你期望的那样简洁高质得工作
+4)通过最少的 API，掌握 Gulp 毫不费力，构建工作尽在掌握：如同一系列流管道。
+五. yeoman (脚手架)
+1.什么是yeoman和yo?
+安装: npm install -g yo
+测试: yo --version
+安装生成器generator-webapp:
+	 npm install generator-webapp --save-dev
+创建项目
+	 yo webapp
+Yeoman帮哟
+2.有什么功用?
+1)Yeoman提供generator系统，一个generator是一个插件，在我们在一个完整的项目上使用‘yo’命令时，会运行该generator。通过这些官方的Generators，
+推出了Yeoman工作流，工作流是一个健壮、有自己特色的客户端堆栈，包含能快速构建漂亮的网络应用的工具和框架。Yeoman提供了负责开始项目开发的一切，
+没有任何让人头痛的手动配置。
+2)采用模块化结构，Yeoman利用从几个开源社区网站学习到的成功和教训，以确保栈开发人员越来越智能的进行开发。基于良好的文档基础以及深思熟虑的项目构建过程，
+Yeoman提供测试和其他更多技术 ，因此开发人员可以更专注于解决方案而不用去担心其他小事。
+3)Yeoman主要提供了三个工具：脚手架（yo），构建工具（grunt），包管理器（bower）。这三个工具是分别独立开发的，但是需要配合使用，来实现我们更高效的工作流模式
+安装:https://www.cnblogs.com/weixing/p/6305837.html
+六. HTML5Boilerplate
+1.什么是HTML5Boilerplate
+最流行的网络开发前端模版
+2.有什么功用?
+HTML5样板你帮构建快速，健壮，并且适应力强的Web应用程序或网站。这个小小的源码包集合了100位开发者的经验，你可以将这些经验运用在你的项目中。
+
+
+第三部分
+一. 安装生成器
+>npm install -g generator-fountain-webapp
+
+二. 利用yo创建开发项目
+1.建立项目文件夹
+>md mytodo
+>cd mytodo
+2. 利用yo菜单进行创建项目
+>yo function-webapp
+(1)yes
+(2)选择javascript框架
+-vue.js 2
+(3)选择css 预处理器
+-css|sass
+(4)选择CI(持续集成) 平台
+-jenkins
+(5)选择 app 示例 
+-TodoMVC
+(6)选择路由
+-Vue Router 2
+(7)允许报告
+-yes
+(8)是否允许覆盖 package.json
+-a|y
+3.启动项目(服务器)
+npm run serve
+4. localhost:3000
+
+***
+vim 键盘图何用
+npm install --save-dev storage.js
